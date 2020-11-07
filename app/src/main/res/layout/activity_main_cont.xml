@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivityCont">
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/featherhome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/user"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/camera"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/palette"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.684"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.867"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="414dp"
+        android:layout_height="661dp"
+        android:layout_marginTop="72dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TableRow>
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#EEF1FC"
+                        android:text="  A"
+                        android:textSize="40sp"
+
+                        app:layout_constraintVertical_bias="0.924" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#EEF1FC"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#EEF1FC"/>
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:background="#EEF1FC"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView92"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/women12" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView44"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="@string/abbe"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView73"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView84"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/femalll" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView42"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Addy"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView74"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView81"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/female" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Annet"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView37"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView86"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/mennn" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView144"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Azur"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView78"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow >
+                <TableRow>
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:background="#EEF1FC"
+                        android:text="  B"
+                        android:textSize="40sp"
+
+                        app:layout_constraintVertical_bias="0.924" />
+                   <TextView
+                       android:layout_width="match_parent"
+                       android:layout_height="match_parent"
+                       android:layout_marginTop="20dp"
+                       android:background="#EEF1FC"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:background="#EEF1FC"/>
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:background="#EEF1FC"/>
+                </TableRow>
+                <TableRow>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView8"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/men" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Bobby"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+                <TableRow>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView28"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/blac" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView45"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Belle"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView70"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+                <TableRow>
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginLeft="60dp"
+                        android:elevation="100dp"
+                        app:cardCornerRadius="50dp"
+                        tools:targetApi="lollipop">
+                        <ImageView
+                            android:id="@+id/imageView80"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:scaleType="centerCrop"
+                            app:srcCompat="@drawable/femalll" />
+                    </androidx.cardview.widget.CardView>
+                    <TextView
+
+                        android:id="@+id/textView65"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:gravity="center"
+                        android:layout_marginLeft="35dp"
+                        android:text="Belle"
+                        android:textSize="30sp" />
+                    <ImageView
+                        android:id="@+id/imageView72"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="30dp"
+                        app:srcCompat="@drawable/phonealt" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
